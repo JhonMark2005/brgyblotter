@@ -1,0 +1,22 @@
+<?php
+return [
+    'title'          => 'Incident Records',
+    'subtitle'       => 'Search and manage all blotter entries',
+    'add'            => 'Add Incident',
+    'filter_title'   => 'Search & Filter',
+    'filter_sub'     => 'Find records by name, type, status, or date range',
+    'search_ph'      => 'Name, type, location...',
+    'status'         => 'Status',
+    'all_status'     => 'All Status',
+    'type'           => 'Incident Type',
+    'all_types'      => 'All Types',
+    'date_from'      => 'Date From',
+    'date_to'        => 'Date To',
+    'results'        => 'Results',
+    'no_records'     => 'No records found',
+    'no_records_sub' => 'Try adjusting your search filters',
+    'complainant'    => 'Complainant',
+    'respondent'     => 'Respondent',
+    'recorded_by'    => 'Recorded By',
+    'actions'        => 'Actions',
+];

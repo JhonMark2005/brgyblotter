@@ -1,0 +1,22 @@
+<?php
+return [
+    'title'          => 'Mga Rekord han Insidente',
+    'subtitle'       => 'Hananap ngan pamahalaa an ngatanan nga mga tala han blotter',
+    'add'            => 'Magdugang hin Insidente',
+    'filter_title'   => 'Hananap & Pilian',
+    'filter_sub'     => 'Hananap hin mga rekord pinaagi han ngaran, klase, kahimtang, o saklaw han petsa',
+    'search_ph'      => 'Ngaran, klase, lugar...',
+    'status'         => 'Kahimtang',
+    'all_status'     => 'Ngatanan nga Kahimtang',
+    'type'           => 'Klase han Insidente',
+    'all_types'      => 'Ngatanan nga Klase',
+    'date_from'      => 'Petsa Han',
+    'date_to'        => 'Petsa Ngadto',
+    'results'        => 'Mga Resulta',
+    'no_records'     => 'Waray nakita nga mga rekord',
+    'no_records_sub' => 'Subanga pag-usba an imo mga pilian sa paghahanap',
+    'complainant'    => 'Nagreklamo',
+    'respondent'     => 'Ginsagubat',
+    'recorded_by'    => 'Naitala Han',
+    'actions'        => 'Mga Aksyon',
+];

@@ -1,0 +1,61 @@
+/* ============================================================
+   Digital Barangay Blotter — Custom Styles
+   Supplements Tailwind CSS
+   ============================================================ */
+
+/* Smooth scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #86efac #f0fdf4;
+}
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-track { background: #f0fdf4; }
+*::-webkit-scrollbar-thumb { background: #86efac; border-radius: 3px; }
+*::-webkit-scrollbar-thumb:hover { background: #4ade80; }
+
+/* Print styles */
+@media print {
+    #sidebar,
+    .no-print,
+    .print\:hidden { display: none !important; }
+
+    .screen-only { display: none !important; }
+
+    body { background: white !important; }
+    main { padding: 0 !important; }
+
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #e2e8f0; padding: 6px 10px; font-size: 11px; }
+    thead th { background: #e2e8f0 !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+
+    @page {
+        size: A4 portrait;
+        margin: 1.5cm 2cm;
+    }
+}
+
+/* Focus ring consistency */
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+/* Table row hover */
+tbody tr { transition: background-color 0.1s ease; }
+
+/* Sidebar transition */
+#sidebar { transition: width 0.2s ease; }
+
+/* Status badge */
+.badge-pending             { background: #fef9c3; color: #854d0e; }
+.badge-under_investigation { background: #dcfce7; color: #166534; }
+.badge-resolved            { background: #bbf7d0; color: #14532d; }
+.badge-dismissed           { background: #f3f4f6; color: #374151; }
+
+/* Card hover */
+.card-hover {
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.card-hover:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
