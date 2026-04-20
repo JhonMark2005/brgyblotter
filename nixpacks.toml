@@ -11,9 +11,7 @@ nixPkgs = [
   "php83Extensions.zip",
   "php83Extensions.bcmath",
   "php83Extensions.intl",
-  "php83Extensions.openssl",
-  "nodejs_20",
-  "nodePackages.npm"
+  "php83Extensions.openssl"
 ]
 
 [phases.install]
